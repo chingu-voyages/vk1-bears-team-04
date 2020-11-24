@@ -1,6 +1,6 @@
 # Full Stack Rescue App
 
-A full stack application to store / list places you have traveled.
+A full stack application* (add description here)
 
 ### TODO
 
@@ -10,7 +10,7 @@ A full stack application to store / list places you have traveled.
   - [x] Install Dependencies
   - [x] Install / Setup Linter
   - [x] Setup Express App
-  - [] Setup Not Found and Error Middlewares
+  - [x] Setup Not Found and Error Middlewares
 - [] Model DB
 
 ## Front-end
