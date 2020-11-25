@@ -1,6 +1,5 @@
 import React from "react";
 
-<<<<<<< HEAD
 import "../../tailwind.config";
 const Footer = () => {
   return (
@@ -84,10 +83,6 @@ const Footer = () => {
       </footer>
     </>
   );
-=======
-const Footer = () => {
-  return <div>Footer</div>;
->>>>>>> fcb58f800d91da4e0d58f75f18c667488451ece6
 };
 
 export default Footer;

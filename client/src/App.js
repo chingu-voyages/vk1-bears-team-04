@@ -6,13 +6,14 @@ import Features from "./components/NavPages/Features";
 import Navbar from "./components/NavPages/Navbar";
 import SignUp from "./components/NavPages/SignUp";
 import Login from "./components/NavPages/Login";
+import Footer from "./components/NavPages/Footer";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
   return (
     <>
       <Router>
-        <Navbar></Navbar>
+        <Navbar />
 
         <Switch>
           <Route path="/about-us">
@@ -32,6 +33,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+      <Footer />
     </>
   );
 }
