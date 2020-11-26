@@ -67,7 +67,7 @@ const SignUp = () => {
             <button className="btn w-full subtle-shadow">
               Sign up with Google
             </button>
-            <button className="btn w-full subtle-shadow text-white bg-blue-400">
+            <button className="btn w-full subtle-shadow text-white bg-blue-900">
               Sign up with Facebook
             </button>
             <p className="text-center mt-4">
