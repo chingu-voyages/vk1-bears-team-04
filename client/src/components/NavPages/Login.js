@@ -30,7 +30,7 @@ const Login = () => {
 
               <button
                 type="submit"
-                className="default-button  w-full py-3 my-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg rounded-full focus:outline-none hover:bg-gray-900 hover:shadow-none"
+                className="btn primary-btn w-full py-3 my-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg rounded-full focus:outline-none hover:bg-gray-900 hover:shadow-none"
               >
                 Login
               </button>
