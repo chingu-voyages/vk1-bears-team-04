@@ -2,4 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+.nav-bg,
+.primary-btn {
+  background: rgb(212, 7, 15);
+  background: linear-gradient(
+    90deg,
+    rgba(212, 7, 15, 1) 0%,
+    rgba(241, 128, 9, 1) 44%,
+    rgba(255, 218, 19, 1) 100%
+  );
+}
 
+.btn {
+  @apply rounded-full focus:outline-none py-3 mt-6 font-medium hover:shadow-inner;
+}
+
+.subtle-shadow {
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.05);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  @apply block border rounded-xl border-gray-200 w-full p-3 mb-4 focus:outline-none focus:bg-gray-50 focus:shadow-inner;
+}
