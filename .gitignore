@@ -22,7 +22,10 @@ client/yarn-error.log*
 
 client/.eslintcache
 
+
 .prettierrc
 
 server/node_modules
+
+# Tailwind Output
 client/src/tailwind.output.css
