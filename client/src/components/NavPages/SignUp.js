@@ -7,53 +7,75 @@ const SignUp = () => {
 
   return (
     <>
-      <div className="bg-grey-lighter flex flex-col">
-        <div className="container max-w-2xl mx-auto flex-1 flex flex-col items-center justify-center px-2">
+      <div className="flex flex-col">
+        <div className="container max-w-2xl mx-auto flex-1 flex flex-col items-center justify-center px-2 mt-12">
           <form
-            className="bg-white px-20 py-8 rounded-3xl shadow-lg text-black w-full my-15"
+            className="bg-white px-20 py-8 rounded-3xl subtle-shadow text-black w-full my-15"
             onSubmit={handleSubmit(onSubmit)}
           >
-            <h1 className="mb-8 text-3xl text-center">Create Account</h1>
+            <h1 className="mb-8 text-2xl text-center font-bold uppercase">
+              Create Account
+            </h1>
             <input
               type="text"
               name="firstName"
-              defaultValue="Your First Name"
+              placeholder="Your First Name"
               ref={register}
-              className="block border rounded-xl border-grey-light w-full p-3 mb-4"
             />
             <input
               type="text"
               name="lastName"
-              defaultValue="Your Last Name"
+              placeholder="Your Last Name"
               ref={register}
-              className="block border rounded-xl border-grey-light w-full p-3 mb-4"
             />
             <input
               type="email"
               name="email"
-              defaultValue="Your Email"
+              placeholder="Your Email"
               ref={register}
-              className="block border rounded-xl border-grey-light w-full p-3 mb-4"
             />
             <input
               type="password"
               name="password"
-              defaultValue="Password"
+              placeholder="Password"
               ref={register}
-              className="block border rounded-xl border-grey-light w-full p-3 mb-4"
             />
             <input
               type="password"
               name="password2"
-              defaultValue="Repeat your Password"
+              placeholder="Repeat your Password"
               ref={register}
-              className="block border rounded-xl border-grey-light w-full p-3 mb-4"
             />
-            <input type="checkbox" />
+            <input
+              type="checkbox"
+              id="terms"
+              name="terms"
+              value="Terms and Agreement"
+            />
+            <label className="pl-2" for="terms">
+              I agree to U Rescue Me's{" "}
+              <a className="underline" href="/">
+                Terms of Service.
+              </a>
+            </label>
             <input
               type="submit"
-              className="w-full py-3 mt-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg rounded-full focus:outline-none hover:bg-gray-900 hover:shadow-none"
+              value="Sign Up"
+              className="w-full btn primary-btn subtle-shadow tracking-widest text-white uppercase hover:shadow-none"
             />
+            <p className="text-center font-bold uppercase mt-6">or</p>
+            <button className="btn w-full subtle-shadow">
+              Sign up with Google
+            </button>
+            <button className="btn w-full subtle-shadow text-white bg-blue-400">
+              Sign up with Facebook
+            </button>
+            <p className="text-center mt-4">
+              Already have an account?&nbsp;
+              <a href="/" className="font-bold underline">
+                Login Here
+              </a>
+            </p>
           </form>
         </div>
       </div>
