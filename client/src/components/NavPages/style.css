@@ -1,4 +1,4 @@
-.nav-bg{
+.nav-bg, .default-button{
     background: rgb(212,7,15);
 background: linear-gradient(90deg, rgba(212,7,15,1) 0%, rgba(241,128,9,1) 44%, rgba(255,218,19,1) 100%);
 }
