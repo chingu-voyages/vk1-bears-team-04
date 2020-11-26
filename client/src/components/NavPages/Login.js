@@ -1,7 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 
-import "./style.css";
 const Login = () => {
   const { login, handleSubmit, watch, errors } = useForm();
   const onSubmit = (data) => console.log(data);
