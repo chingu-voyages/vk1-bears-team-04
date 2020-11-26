@@ -25,3 +25,4 @@ client/.eslintcache
 .prettierrc
 
 server/node_modules
+client/src/tailwind.output.css
