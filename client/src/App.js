@@ -1,12 +1,14 @@
 import "./App.css";
 
-import About from "./components/NavPages/About";
-import Contact from "./components/NavPages/Contact";
-import Features from "./components/NavPages/Features";
-import Navbar from "./components/NavPages/Navbar";
-import SignUp from "./components/NavPages/SignUp";
-import Login from "./components/NavPages/Login";
-import Footer from "./components/NavPages/Footer";
+import {
+  About,
+  Contact,
+  Features,
+  Navbar,
+  SignUp,
+  Login,
+  Footer,
+} from "./components/NavPages";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
