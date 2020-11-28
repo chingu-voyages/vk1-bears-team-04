@@ -8,6 +8,7 @@ import {
   SignUp,
   Login,
   Footer,
+  Home,
 } from "./components/NavPages";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -18,6 +19,9 @@ function App() {
         <Navbar />
 
         <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
           <Route path="/about-us">
             <About />
           </Route>
