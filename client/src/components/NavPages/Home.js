@@ -3,6 +3,7 @@ import { ReactComponent as CircleLogo } from "../../images/logo-with-circle-bord
 import step1 from "../../images/step-1.svg";
 import step2 from "../../images/step-2.svg";
 import step3 from "../../images/step-3.svg";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -27,8 +28,8 @@ const Home = () => {
                   exercitation ullamco laboris nisi ut aliquip ex ea commodo
                   consequat.
                 </p>
-                <a
-                  href="/"
+                <Link
+                  to="/sign-up"
                   className="btn primary-btn w-1/4 mt-3 text-white inline-flex uppercase justify-center items-center"
                 >
                   Sign Up
@@ -43,7 +44,7 @@ const Home = () => {
                   >
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
