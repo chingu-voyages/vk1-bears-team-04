@@ -16,7 +16,7 @@ const Navbar = () => {
           <div className="relative flex items-center justify-between h-16">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               <button
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:underline focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                 aria-expanded="false"
               >
                 <span className="sr-only">Open main menu</span>
@@ -74,19 +74,19 @@ const Navbar = () => {
                 <div className="flex space-x-4">
                   <Link
                     to="/about-us"
-                    className="px-3 py-2 rounded-md  text-base font-medium text-white"
+                    className="px-3 py-2 rounded-md text-base font-medium text-white hover:underline"
                   >
                     About Us
                   </Link>
                   <Link
                     to="/features"
-                    className="px-3 py-2 rounded-md text-base font-medium text-white hover:text-white hover:bg-gray-700"
+                    className="px-3 py-2 rounded-md text-base font-medium text-white hover:underline"
                   >
                     Features
                   </Link>
                   <Link
                     to="/contact"
-                    className="px-3 py-2 rounded-md text-base font-medium text-white hover:text-white hover:bg-gray-700"
+                    className="px-3 py-2 rounded-md text-base font-medium text-white hover:underline"
                   >
                     Contact
                   </Link>
@@ -99,14 +99,14 @@ const Navbar = () => {
                 <div className="flex space-x-4">
                   <Link
                     to="/sign-up"
-                    className="px-3 py-2 rounded-md  text-base font-medium text-white"
+                    className="px-3 py-2 rounded-md  text-base font-medium text-white hover:underline active:underline"
                   >
                     Sign Up
                   </Link>
                   <Link
                     to="/login"
                     className="px-3 py-2 rounded-md text-base font-medium
-                    text-white hover:text-white hover:bg-gray-700"
+                    text-white hover:underline"
                   >
                     {" "}
                     Login
