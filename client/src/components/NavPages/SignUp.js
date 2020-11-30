@@ -8,7 +8,7 @@ const SignUp = () => {
   return (
     <>
       <div className="flex flex-col">
-        <div className="container max-w-2xl mx-auto flex-1 flex flex-col items-center justify-center px-2 mt-12">
+        <div className="container max-w-2xl mx-auto flex-1 flex flex-col items-center justify-center px-2 my-12">
           <form
             className="bg-white px-20 py-8 rounded-3xl subtle-shadow text-black w-full my-15"
             onSubmit={handleSubmit(onSubmit)}
