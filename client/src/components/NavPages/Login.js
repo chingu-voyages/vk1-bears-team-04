@@ -1,9 +1,18 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import { Dashboard } from "./";
+import { PrivateRoute } from "../Auth";
+import { useHistory } from "react-router-dom";
 
 const Login = () => {
-  const { login, handleSubmit, watch, errors } = useForm();
-  const onSubmit = (data) => console.log(data);
+  const { register, handleSubmit, watch, errors } = useForm();
+  const history = useHistory();
+  const onSubmit = (data) => {
+    console.log(data);
+    if (data.email === "user@test.com" && data.password === "password") {
+      return history.push("/dashboard");
+    }
+  };
 
   return (
     <>
@@ -18,14 +27,14 @@ const Login = () => {
                 type="email"
                 name="email"
                 placeholder="Your Email"
-                ref={login}
+                ref={register}
               />
 
               <input
                 type="password"
                 name="password"
                 placeholder="Password"
-                ref={login}
+                ref={register}
                 className=""
               />
 
