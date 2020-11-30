@@ -16,6 +16,7 @@ import { PrivateRoute } from "./components/Auth";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
+  const userType = "admin";
   return (
     <>
       <Router>
@@ -27,7 +28,7 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/sign-up" component={SignUp} />
           <Route path="/login" component={Login} />
-          <PrivateRoute path="/user/dashboard" component={Dashboard} />
+          <PrivateRoute path="/dashboard" component={Dashboard} />
         </Switch>
         <Footer />
       </Router>
