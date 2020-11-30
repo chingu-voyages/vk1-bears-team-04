@@ -61,7 +61,7 @@ const SignUp = () => {
             <input
               type="submit"
               value="Sign Up"
-              className="w-full btn primary-btn subtle-shadow tracking-widest text-white uppercase hover:shadow-none"
+              className="w-full btn btn-primary subtle-shadow tracking-widest text-white uppercase hover:shadow-none"
             />
             <p className="text-center font-bold uppercase mt-6">or</p>
             <button className="btn w-full subtle-shadow">
