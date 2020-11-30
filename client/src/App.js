@@ -9,7 +9,10 @@ import {
   Login,
   Footer,
   Home,
+  Dashboard,
 } from "./components/NavPages";
+
+import { PrivateRoute } from "./components/Auth";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 function App() {
@@ -24,6 +27,7 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/sign-up" component={SignUp} />
           <Route path="/login" component={Login} />
+          <PrivateRoute path="/user/dashboard" component={Dashboard} />
         </Switch>
         <Footer />
       </Router>
