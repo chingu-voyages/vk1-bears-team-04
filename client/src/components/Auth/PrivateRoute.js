@@ -3,7 +3,7 @@ import { Route, Redirect } from "react-router-dom";
 
 const PrivateRoute = (props) => {
   // Add Validation Here
-  const condition = false;
+  const condition = true;
 
   return condition ? (
     <Route path={props.path} exact={props.exact} component={props.component} />
