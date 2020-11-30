@@ -17,29 +17,16 @@ function App() {
     <>
       <Router>
         <Navbar />
-
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/about-us">
-            <About />
-          </Route>
-          <Route path="/features">
-            <Features />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/sign-up">
-            <SignUp />
-          </Route>
-          <Route path="/login">
-            <Login />
-          </Route>
+          <Route exact path="/" component={Home} />
+          <Route path="/about-us" component={About} />
+          <Route path="/features" component={Features} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/sign-up" component={SignUp} />
+          <Route path="/login" component={Login} />
         </Switch>
+        <Footer />
       </Router>
-      <Footer />
     </>
   );
 }
