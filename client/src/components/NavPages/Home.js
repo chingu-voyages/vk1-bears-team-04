@@ -30,7 +30,7 @@ const Home = () => {
                 </p>
                 <Link
                   to="/sign-up"
-                  className="btn primary-btn w-1/4 mt-3 text-white inline-flex uppercase justify-center items-center"
+                  className="btn btn-primary w-1/4 mt-3 text-white inline-flex uppercase justify-center items-center"
                 >
                   Sign Up
                   <svg
@@ -65,7 +65,7 @@ const Home = () => {
                 <div className="flex justify-center h-64">
                   <img src={step1} alt="Step 1" />
                 </div>
-                <div className="primary-btn pt-1 mb-6"></div>
+                <div className="btn-primary pt-1 mb-6"></div>
                 <h2 className="px-12 tracking-widest text-2xl title-font font-bold text-gray-900 mb-3">
                   Look out for Posts
                 </h2>
@@ -81,7 +81,7 @@ const Home = () => {
                 <div className="flex justify-center h-64">
                   <img src={step2} alt="Step 2" />
                 </div>
-                <div className="primary-btn pt-1 mb-6"></div>
+                <div className="btn-primary pt-1 mb-6"></div>
                 <h2 className="px-12 tracking-widest text-2xl title-font font-bold text-gray-900 mb-3">
                   Crowdsource Information
                 </h2>
@@ -96,7 +96,7 @@ const Home = () => {
                 <div className="flex justify-center h-64">
                   <img src={step3} alt="Step 3" />
                 </div>
-                <div className="primary-btn pt-1 mb-6"></div>
+                <div className="btn-primary pt-1 mb-6"></div>
                 <h2 className="px-12 tracking-widest text-2xl title-font font-bold text-gray-900 mb-3">
                   Leave the rest to Us!
                 </h2>

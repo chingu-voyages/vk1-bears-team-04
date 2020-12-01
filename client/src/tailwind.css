@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .nav-bg,
-.primary-btn {
+.btn-primary {
   background: rgb(212, 7, 15);
   background: linear-gradient(
     90deg,
