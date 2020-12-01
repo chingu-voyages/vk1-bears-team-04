@@ -44,8 +44,20 @@ const Login = () => {
               >
                 Login
               </button>
+              <p className="text-center font-bold uppercase mt-6">or</p>
+              <button className="btn w-full subtle-shadow">
+                Sign up with Google
+              </button>
+              <button className="btn w-full subtle-shadow text-white bg-blue-900">
+                Sign up with Facebook
+              </button>
+              <p className="text-center mt-4">
+                Don't have an account yet?&nbsp;
+                <a href="/" className="font-bold underline">
+                  Register here
+                </a>
+              </p>
             </form>
-            <span>Don't have an account yet? Register here</span>
           </div>
         </div>
       </div>
