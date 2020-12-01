@@ -26,6 +26,7 @@ client/.eslintcache
 .prettierrc
 
 server/node_modules
+server/.env
 
 # Tailwind Output
 client/src/tailwind.output.css
