@@ -8,8 +8,8 @@ const { CLIENT_URL } = process.env;
 const userController = {
   register: async (req, res) => {
     try {
-      const { name, email, password } = req.body;
-      if (!name || !email || !password) {
+      const { firstName, lastName, email, password } = req.body;
+      if (!firstName || !lastName || !email || !password) {
         return res.status(400).json({
           message: "Please fill in all fields",
         });
@@ -35,7 +35,8 @@ const userController = {
       const passwordHash = await bcrypt.hash(password, 12);
 
       const newUser = {
-        name,
+        firstName,
+        lastName,
         email,
         password: passwordHash,
       };
@@ -62,14 +63,15 @@ const userController = {
         process.env.ACTIVATION_TOKEN_SECRET
       );
 
-      const { name, email, password } = user;
+      const { firstName, lastName, email, password } = user;
 
       const check = await User.findOne({ email });
       if (check)
         return res.status(400).json({ msg: "This email already exists." });
 
       const newUser = new User({
-        name,
+        firstName,
+        lastName,
         email,
         password,
       });
