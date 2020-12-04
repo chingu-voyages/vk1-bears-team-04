@@ -41,18 +41,19 @@ const sendEmail = (to, url, txt) => {
     to: to,
     subject: "U Rescue Me",
     html: `
-            <div style="max-width: 700px; margin:auto; border: 10px solid #ddd; padding: 50px 20px; font-size: 110%;">
-            <h2 style="text-align: center; text-transform: uppercase;color: teal;">U Rescue Me</h2>
-            <p>
-                Just click the button below to validate your email address.
-            </p>
-            
-            <a href=${url} style="background: crimson; text-decoration: none; color: white; padding: 10px 20px; margin: 10px 0; display: inline-block;">${txt}</a>
-        
-            <p>If the button doesn't work for any reason, you can also click on the link below:</p>
-        
-            <div>${url}</div>
-            </div>
+          <div style="max-width: 700px; margin:auto; border: 5px solid #d3d3d3;
+          border-radius: 54px; padding: 50px 20px; font-size: 110%;">
+          <h2 style="text-align: center; text-transform: uppercase;color: #000000;">U Rescue Me</h2>
+          <p>
+              Just click the button below to validate your email address.
+          </p>
+          
+          <a href=${url} style="background: linear-gradient(267.74deg, #FFDA13 1.88%, #F18009 53.23%, #BC050C 98.55%); border-radius: 43px; text-decoration: none; color: white; padding: 10px 20px; margin: 10px 0; display: inline-block;">${txt}</a>
+      
+          <p>If the button doesn't work for any reason, you can also click on the link below:</p>
+      
+          <div>${url}</div>
+          </div>
         `,
   };
 
