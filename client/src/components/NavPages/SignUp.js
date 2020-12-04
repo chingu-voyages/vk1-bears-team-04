@@ -54,8 +54,8 @@ const SignUp = () => {
             />
             <label className="pl-2" for="terms">
               I agree to U Rescue Me's{" "}
-              <a className="underline" href="/">
-                Terms of Service.
+              <a className="underline" href="/terms-of-services">
+                Terms of Services.
               </a>
             </label>
             <input
