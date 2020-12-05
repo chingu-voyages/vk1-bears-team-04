@@ -1,6 +1,12 @@
 import "./App.css";
+<<<<<<< HEAD
 import React, { useState } from "react";
 import UserContext from "./context/userContext";
+=======
+
+
+
+>>>>>>> develop
 import {
   About,
   Contact,
