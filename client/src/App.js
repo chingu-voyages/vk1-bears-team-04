@@ -1,6 +1,5 @@
 import "./App.css";
-import React, { useState, useEffect } from "react";
-import Axios from "axios";
+import React, { useState } from "react";
 import UserContext from "./context/userContext";
 import {
   About,
@@ -20,14 +19,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   const [userData, setUserData] = useState({
     token: undefined,
-    isAuthenticated: undefined,
+    user: undefined,
   });
 
-  useEffect(() => {
-    const checkUser = async () => {
-      const token = localStorage.getItem("auth-token");
-    };
-  }, []);
   return (
     <>
       <Router>
@@ -38,7 +32,7 @@ function App() {
             <Route path="/about-us" component={About} />
             <Route path="/features" component={Features} />
             <Route path="/contact" component={Contact} />
-            <Route path="/sign-up" component={SignUp} />
+            <Route path="/register" component={SignUp} />
             <Route path="/login" component={Login} />
             <PrivateRoute path="/dashboard" component={Dashboard} />
           </Switch>

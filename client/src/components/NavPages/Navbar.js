@@ -98,7 +98,7 @@ const Navbar = () => {
               <div className="hidden sm:block sm:ml-6">
                 <div className="flex space-x-4">
                   <Link
-                    to="/sign-up"
+                    to="/register"
                     className="px-3 py-2 rounded-md  text-base font-medium text-white hover:underline active:underline"
                   >
                     Sign Up
