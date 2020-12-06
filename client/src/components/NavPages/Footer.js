@@ -27,7 +27,7 @@ const Footer = () => {
                 </span>
                 <span className="my-2">
                   <a
-                    href="/"
+                    href="/about-us"
                     className="text-white text-md hover:text-blue-500"
                   >
                     About Us
@@ -35,7 +35,7 @@ const Footer = () => {
                 </span>
                 <span className="my-2">
                   <a
-                    href="/"
+                    href="/features"
                     className="text-white  text-md hover:text-blue-500"
                   >
                     Features
@@ -43,7 +43,7 @@ const Footer = () => {
                 </span>
                 <span className="my-2">
                   <a
-                    href="/"
+                    href="/contact"
                     className="text-white text-md hover:text-blue-500"
                   >
                     Contact Us
