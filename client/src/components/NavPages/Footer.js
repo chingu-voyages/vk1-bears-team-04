@@ -53,7 +53,7 @@ const Footer = () => {
               <div className="flex w-1/4 flex-col">
                 <span className="mt-5 py-4">
                   <a
-                    href="/"
+                    href="/privacy-policy"
                     className="text-white  text-md hover:text-blue-500"
                   >
                     Privacy Policy
@@ -61,7 +61,7 @@ const Footer = () => {
                 </span>
                 <span className="my-2">
                   <a
-                    href="/"
+                    href="/faqs"
                     className="text-white  text-md hover:text-blue-500"
                   >
                     FAQS

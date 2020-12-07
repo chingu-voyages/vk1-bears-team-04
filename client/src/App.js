@@ -1,12 +1,7 @@
 import "./App.css";
-<<<<<<< HEAD
 import React, { useState } from "react";
 import UserContext from "./context/userContext";
-=======
 
-
-
->>>>>>> develop
 import {
   About,
   Contact,
@@ -17,6 +12,10 @@ import {
   Footer,
   Home,
   Dashboard,
+  Faqs,
+  Privacy,
+  Terms,
+  Forgot,
 } from "./components/NavPages";
 
 import { PrivateRoute } from "./components/Auth";
@@ -38,8 +37,17 @@ function App() {
             <Route path="/about-us" component={About} />
             <Route path="/features" component={Features} />
             <Route path="/contact" component={Contact} />
-            <Route path="/register" component={SignUp} />
+            <Route path="/sign-up" component={SignUp} />
             <Route path="/login" component={Login} />
+            <Route path="/faqs" component={Faqs} />
+            <Route path="/privacy-policy" component={Privacy} />
+            <Route path="/terms-of-services" component={Terms} />
+            <Route path="/forgot-password" component={Forgot} />
+            <Route
+              path="/user/activate/:activation_token"
+              component={ActivationEmail}
+              exact
+            />
             <PrivateRoute path="/dashboard" component={Dashboard} />
           </Switch>
           <Footer />

@@ -44,6 +44,7 @@ const Login = () => {
               >
                 Login
               </button>
+              <p className="text-left"><a className="font-medium underline" href="/forgot-password">Forgot your Password?</a></p>
               <p className="text-center font-bold uppercase mt-6">or</p>
               <button className="btn w-full subtle-shadow">
                 Sign up with Google
