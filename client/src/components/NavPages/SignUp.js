@@ -1,15 +1,18 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { useForm } from "react-hook-form";
-// import { useMutate } from "restful-react";
+import swal from "sweetalert";
 import { Link } from "react-router-dom";
-import { showErrMsg, showSuccessMsg } from "../utils/notification/notification";
+import {
+  showErrMsg,
+  showSuccessMsg,
+} from "../utils/Notification/notificationMsg";
 import {
   isEmpty,
   isEmail,
   isLength,
   isMatch,
-} from "../utils/notification/validation";
+  isStringOnly,
+} from "../utils/Validation/validationMsg";
 
 const initialState = {
   firstName: "",
@@ -22,7 +25,6 @@ const initialState = {
 };
 
 const SignUp = () => {
-  const { register, errors, watch } = useForm();
   const [user, setUser] = useState(initialState);
   const {
     firstName,
@@ -33,37 +35,6 @@ const SignUp = () => {
     err,
     success,
   } = user;
-
-  // const [info, setInfo] = useState();
-  // const { mutate: registerUser } = useMutate({
-  //   verb: "POST",
-  //   path: "http://localhost:5000/user/register",
-  // });
-
-  // const [firstName, setFirstName] = useState();
-  // const [lastName, setLastName] = useState();
-  // const [email, setEmail] = useState();
-  // const [password, setPassword] = useState();
-
-  // check passwords if matched
-  // const watchPassword = useRef({});
-  // watchPassword.current = watch("password", "");
-
-  //register user
-  // const submit = async (e) => {
-  //   e.preventDefault();
-  //   try {
-  //     const newUser = { firstName, lastName, email, password };
-  //     await Axios.post("http://localhost:5000/user/register", newUser);
-  //   } catch (err) {}
-  // };
-
-  // const submit = (data) => {
-  //   setInfo();
-  //   registerUser(data).then((_) =>
-  //     setInfo("Please check your email and activate your account")
-  //   );
-  // };
 
   const handleChangeInput = (e) => {
     const { name, value } = e.target;
@@ -80,8 +51,11 @@ const SignUp = () => {
         success: "",
       });
 
+    if (!isStringOnly(firstName) || !isStringOnly(lastName))
+      return setUser({ ...user, err: "Invalid name format.", success: "" });
+
     if (!isEmail(email))
-      return setUser({ ...user, err: "Invalid emails.", success: "" });
+      return setUser({ ...user, err: "Invalid email format.", success: "" });
 
     if (isLength(password))
       return setUser({
@@ -102,6 +76,14 @@ const SignUp = () => {
       });
 
       setUser({ ...user, err: "", success: res.data.msg });
+      return swal({
+        title: "Register Success!",
+        text: " Please activate your email to start!",
+        icon: "success",
+        type: "success",
+      }).then(function () {
+        window.location = "/login";
+      });
     } catch (err) {
       err.response.data.msg &&
         setUser({ ...user, err: err.response.data.msg, success: "" });
@@ -116,11 +98,8 @@ const SignUp = () => {
             onSubmit={submit}
             className="bg-white px-20 py-8 rounded-3xl subtle-shadow text-black w-full my-15"
           >
-            <small className="  p-4   text-center ">
-              {" "}
-              {err && showErrMsg(err)}
-              {success && showSuccessMsg(success)}
-            </small>
+            {err && showErrMsg(err)}
+            {success && showSuccessMsg(success)}
             <h1 className="mb-8 text-2xl text-center font-bold uppercase ">
               Create Account
             </h1>
@@ -133,18 +112,8 @@ const SignUp = () => {
               id="registerFname"
               autoComplete="off"
               onChange={handleChangeInput}
-              ref={register({
-                required: " First Name is Required !",
-                minLength: { value: 3, message: "First Name is too short" },
-                pattern: {
-                  value: /^[A-Za-z]+$/,
-                  message: "Invalid Format",
-                },
-              })}
             />
-            {errors.firstName && (
-              <p className="text-red-500 m-3">{errors.firstName.message}</p>
-            )}
+
             <input
               type="text"
               name="lastName"
@@ -153,38 +122,18 @@ const SignUp = () => {
               id="registerLname"
               autoComplete="off"
               onChange={handleChangeInput}
-              ref={register({
-                required: " Last Name is Required !",
-                minLength: { value: 3, message: "Last name is too short" },
-                maxLength: { value: 20, message: "Last Name is too long" },
-                pattern: {
-                  value: /^[A-Za-z_ ]+$/,
-                  message: "Invalid format",
-                },
-              })}
             />
-            {errors.lastName && (
-              <p className="text-red-500 m-3">{errors.lastName.message}</p>
-            )}
+
             <input
-              type="email"
+              type="text"
               name="email"
               value={email}
               placeholder="Your Email"
               id="registerEmail"
               autoComplete="off"
               onChange={handleChangeInput}
-              ref={register({
-                required: " Email is required !",
-                pattern: {
-                  value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                  message: "Invalid format",
-                },
-              })}
             />
-            {errors.email && (
-              <p className="text-red-500 m-3">{errors.email.message}</p>
-            )}
+
             <input
               type="password"
               name="password"
@@ -192,22 +141,8 @@ const SignUp = () => {
               value={password}
               id="registerPass"
               onChange={handleChangeInput}
-              ref={register({
-                required: " Password is required !",
-                minLength: {
-                  value: 6,
-                  message: "Password must be 6 characters",
-                },
-                pattern: {
-                  value: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[#$@!%&*?])[A-Za-z\d#$@!%&*?]{6,20}$/,
-                  message:
-                    "Password must contain one : number, uppercase , lowercase, special character",
-                },
-              })}
             />
-            {errors.password && (
-              <p className="text-red-500 m-3">{errors.password.message}</p>
-            )}
+
             <input
               type="password"
               name="password2"
@@ -215,15 +150,8 @@ const SignUp = () => {
               onChange={handleChangeInput}
               placeholder="Repeat your Password"
               id="registerRPass"
-              // ref={register({
-              //   validate: (value) =>
-              //     value === watchPassword.current ||
-              //     "The passwords do not match !",
-              // })}
             />
-            {errors.password2 && (
-              <p className="text-red-500 my-3">{errors.password2.message}</p>
-            )}
+
             <input
               type="checkbox"
               id="terms"
