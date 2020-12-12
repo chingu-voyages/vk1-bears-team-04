@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Terms = () => {
   return (
@@ -34,7 +35,7 @@ const Terms = () => {
         <p className="pb-5">U Rescue Me may revise these Terms of Use for its Website at any time without prior notice. By using this Website, you are agreeing to be bound by the current version of these Terms and Conditions of Use.</p>
 
         <h2 className="pb-5 font-medium text-2xl">8. Your Privacy</h2>
-        <p className="pb-5">Please read our <a className="underline" href="/privacy-policy">Privacy Policy.</a></p>
+        <p className="pb-5">Please read our <Link className="underline" to="/privacy-policy">Privacy Policy.</Link></p>
 
         <h2 className="pb-5 font-medium text-2xl">9. Governing Law</h2>
         <p className="pb-5">Any claim related to U Rescue Me's Website shall be governed by the laws of ph without regards to its conflict of law provisions.</p>

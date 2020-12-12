@@ -17,6 +17,7 @@ import {
   Privacy,
   Terms,
   Forgot,
+  PageNotFound,
 } from "./components/NavPages";
 
 import { PrivateRoute } from "./components/Auth";
@@ -45,6 +46,7 @@ function App() {
           <Route path="/terms-of-services" component={Terms} />
           <Route path="/forgot-password" component={Forgot} />
           <PrivateRoute path="/dashboard" component={Dashboard} />
+          <Route component={PageNotFound} />
         </Switch>
         <Footer />
     </UserContext.Provider>
