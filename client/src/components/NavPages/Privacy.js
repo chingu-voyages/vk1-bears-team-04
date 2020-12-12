@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Privacy = () => {
   return (
     <>
-      <div>
+      <div className="text-left">
         <h1 className= "text-center font-medium text-4xl pt-10">Privacy Policy</h1>
         <div className="py-10 px-14">
           <p className="pb-5 font-serif">U Rescue Me operates the https://urescue.me website, which provides the SERVICE.</p>

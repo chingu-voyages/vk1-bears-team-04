@@ -68,7 +68,7 @@ const Faqs = () => {
     <IconContext.Provider value={{ color: '#000', size: '25px' }}>
       <h1 className="text-center font-medium text-4xl pt-10">Frequently Asked Questions (FAQs)</h1>
       <AccordionSection>
-        <Container>
+        <Container className="text-left">
           {Questions.map((item, index) => {
             return (
               <>

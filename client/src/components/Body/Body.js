@@ -14,6 +14,7 @@ import {
   Privacy,
   Terms,
   Forgot,
+  PageNotFound,
 } from "../NavPages";
 
 import ActivationEmail from "../Auth/Activation";
@@ -43,6 +44,7 @@ function Body() {
             exact
           />
           <Route path="/dashboard" component={Dashboard} />
+          <Route component={PageNotFound} />
         </Switch>
         <Footer />
       </Router>

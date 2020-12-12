@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const Terms = () => {
   return (
     <>
-    <div>
+    <div className="text-left">
       <h1 className= "text-center font-medium text-4xl pt-10">Terms of Services</h1>
       <div className="py-10 px-14">
         <h2 className=" pb-5 font-medium text-2xl">1. Terms</h2>
     
-        <p className="pb-5">By accessing this Website, accessible from https://urescue.me, you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.</p>
+        <p className="pb-5">By accessing this Website, accessible from <Link to="/" className="underline">https://urescue.me</Link>, you are agreeing to be bound by these Website Terms and Conditions of Use and agree that you are responsible for the agreement with any applicable local laws. If you disagree with any of these terms, you are prohibited from accessing this site. The materials contained in this Website are protected by copyright and trade mark law.</p>
 
         <h2 className="pb-5 font-medium text-2xl">2. Use License</h2>
         <p className="pb-5">Permission is granted to temporarily download one copy of the materials on U Rescue Me's Website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
