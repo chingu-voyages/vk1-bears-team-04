@@ -18,3 +18,8 @@ export const isMatch = (password, password2) => {
   if (password === password2) return true;
   return false;
 };
+
+export const isStringOnly = (firstName, lastName) => {
+  const pat = /^[A-Za-z]+$/;
+  return pat.test(firstName, lastName);
+};

@@ -1,57 +1,53 @@
 import "./App.css";
-import React, { useState } from "react";
-import UserContext from "./context/userContext";
 
+import React, { useEffect } from "react";
+import axios from "axios";
+
+import { useDispatch, useSelector } from "react-redux";
 import {
-  About,
-  Contact,
-  Features,
-  Navbar,
-  SignUp,
-  Login,
-  Footer,
-  Home,
-  Dashboard,
-  Faqs,
-  Privacy,
-  Terms,
-  Forgot,
-} from "./components/NavPages";
+  dispatchLogin,
+  fetchUser,
+  dispatchGetUser,
+} from "./redux/actions/authAction";
 
-import { PrivateRoute } from "./components/Auth";
+import Body from "./components/Body/Body";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 function App() {
-  const [userData, setUserData] = useState({
-    token: undefined,
-    user: undefined,
-  });
+  const dispatch = useDispatch();
+  const token = useSelector((state) => state.token);
+  const auth = useSelector((state) => state.auth);
+
+  useEffect(() => {
+    const firstLogin = localStorage.getItem("firstLogin");
+    if (firstLogin) {
+      const getToken = async () => {
+        const res = await axios.post("/user/refresh_token", null);
+        dispatch({ type: "GET_TOKEN", payload: res.data.access_token });
+      };
+      getToken();
+    }
+  }, [auth.isLogged, dispatch]);
+
+  useEffect(() => {
+    if (token) {
+      const getUser = () => {
+        dispatch(dispatchLogin());
+
+        return fetchUser(token).then((res) => {
+          dispatch(dispatchGetUser(res));
+        });
+      };
+      getUser();
+    }
+  }, [token, dispatch]);
 
   return (
     <>
       <Router>
-        <UserContext.Provider value={{ userData, setUserData }}>
-          <Navbar />
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about-us" component={About} />
-            <Route path="/features" component={Features} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/sign-up" component={SignUp} />
-            <Route path="/login" component={Login} />
-            <Route path="/faqs" component={Faqs} />
-            <Route path="/privacy-policy" component={Privacy} />
-            <Route path="/terms-of-services" component={Terms} />
-            <Route path="/forgot-password" component={Forgot} />
-            <Route
-              path="/user/activate/:activation_token"
-              component={ActivationEmail}
-              exact
-            />
-            <PrivateRoute path="/dashboard" component={Dashboard} />
-          </Switch>
-          <Footer />
-        </UserContext.Provider>
+        <div className="App">
+          <Body />
+        </div>
       </Router>
     </>
   );
