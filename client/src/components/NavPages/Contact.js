@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import contact from "../../images/contact.svg";
 
 const Contact = () => {
   return (
@@ -28,8 +29,8 @@ const Contact = () => {
                 </Link></div>
           </div>
 
-          <div>
-            <p>[Embedded Google Map Location]</p>
+          <div className="flex justify-center items-center">
+            <img className="h-96" src={contact} alt="Contact" />
           </div>
         </div>
 

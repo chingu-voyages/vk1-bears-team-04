@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "../../tailwind.config";
 const Footer = () => {
@@ -9,11 +10,11 @@ const Footer = () => {
           <div className="sm:flex sm:mt-8">
             <div className="mt-8 sm:mt-0 sm:w-full sm:px-8 flex flex-col md:flex-row justify-between">
               <div className="flex flex-col">LOGO</div>
-              <div className="flex flex-col w-1/5">
+              <div className="flex flex-col w-2/5">
                 <span className="font-bold text-white uppercase mb-2">
                   U rescue me
                 </span>
-                <span className="text-justify">
+                <span className="text-justify px-2">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                   ac diam a est placerat cursus. Vestibulum ut imperdiet velit.
                   Nulla sed nulla ultricies, lobortis sem a, mollis nibh.
@@ -26,46 +27,47 @@ const Footer = () => {
                   Site Links
                 </span>
                 <span className="my-2">
-                  <a
-                    href="/about-us"
+                  <Link
+                    to="/about-us"
                     className="text-white text-md hover:text-blue-500"
                   >
                     About Us
-                  </a>
+                  </Link>
+                  
                 </span>
                 <span className="my-2">
-                  <a
-                    href="/features"
+                  <Link
+                    to="/features"
                     className="text-white  text-md hover:text-blue-500"
                   >
                     Features
-                  </a>
+                  </Link>
                 </span>
                 <span className="my-2">
-                  <a
-                    href="/contact"
+                  <Link
+                    to="/contact"
                     className="text-white text-md hover:text-blue-500"
                   >
                     Contact Us
-                  </a>
+                  </Link>
                 </span>
               </div>
               <div className="flex w-1/4 flex-col">
                 <span className="mt-5 py-4">
-                  <a
-                    href="/privacy-policy"
+                  <Link
+                    to="/privacy-policy"
                     className="text-white  text-md hover:text-blue-500"
                   >
                     Privacy Policy
-                  </a>
+                  </Link>
                 </span>
                 <span className="my-2">
-                  <a
-                    href="/faqs"
+                  <Link
+                    to="/faqs"
                     className="text-white  text-md hover:text-blue-500"
                   >
                     FAQS
-                  </a>
+                  </Link>
                 </span>
               </div>
             </div>
