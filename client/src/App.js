@@ -1,6 +1,7 @@
 import "./App.css";
 
-
+import React, { useState } from "react";
+import UserContext from "./context/userContext";
 
 import {
   About,
@@ -20,12 +21,17 @@ import {
 
 import { PrivateRoute } from "./components/Auth";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
-  const userType = "admin";
+  const [userData, setUserData] = useState({
+    token: undefined,
+    user: undefined,
+  });
+
   return (
     <>
       <Router>
+     <UserContext.Provider value={{ userData, setUserData }}>
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
@@ -41,6 +47,7 @@ function App() {
           <PrivateRoute path="/dashboard" component={Dashboard} />
         </Switch>
         <Footer />
+    </UserContext.Provider>
       </Router>
     </>
   );

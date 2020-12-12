@@ -17,7 +17,11 @@
     "react-icons": "^4.1.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.1",
+<<<<<<< HEAD
     "styled-components": "^5.2.1",
+=======
+    "restful-react": "^15.1.2",
+>>>>>>> 294d79332abdc2129d5e594ea4776272a651bb5d
     "tailwindcss": "^2.0.1",
     "tailwindcss-fluid-container": "^4.0.0",
     "web-vitals": "^0.2.4"
