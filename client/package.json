@@ -20,6 +20,8 @@
     "redux": "^4.0.5",
     "restful-react": "^15.1.2",
     "sweetalert": "^2.1.2",
+    "react-icons": "^4.1.0",
+    "styled-components": "^5.2.1",
     "tailwindcss": "^2.0.1",
     "tailwindcss-fluid-container": "^4.0.0",
     "web-vitals": "^0.2.4"
