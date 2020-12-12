@@ -11,7 +11,7 @@ import { isEmpty } from "../utils/Validation/validationMsg";
 import {
   showErrMsg,
   showSuccessMsg,
-} from "../utils/Notification/notificationMsg";
+} from "../utils/notification/notificationMsg";
 
 const initialState = {
   email: "",

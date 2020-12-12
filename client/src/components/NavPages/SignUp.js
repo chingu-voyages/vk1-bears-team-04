@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import {
   showErrMsg,
   showSuccessMsg,
-} from "../utils/Notification/notificationMsg";
+} from "../utils/notification/notificationMsg";
 import {
   isEmpty,
   isEmail,

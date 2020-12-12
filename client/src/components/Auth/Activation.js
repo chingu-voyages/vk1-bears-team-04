@@ -4,7 +4,7 @@ import axios from "axios";
 import {
   showErrMsg,
   showSuccessMsg,
-} from "../utils/Notification/notificationMsg";
+} from "../utils/notification/notificationMsg";
 
 function ActivationEmail() {
   const { activation_token } = useParams();
