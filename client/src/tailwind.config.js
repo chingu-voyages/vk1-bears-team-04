@@ -10,6 +10,7 @@ module.exports = {
       },
     },
   },
+ 
   variants: {
     fluidContainer: ["responsive"], // defaults to ['responsive']
     extend: {},
