@@ -4,12 +4,13 @@ import step1 from "../../images/step-1.svg";
 import step2 from "../../images/step-2.svg";
 import step3 from "../../images/step-3.svg";
 import { Link } from "react-router-dom";
+import { HiArrowRight } from 'react-icons/hi';
 
 const Home = () => {
   return (
     <>
       <section className="text-gray-700 body-font">
-        <div className="container px-5 py-48 mx-auto flex flex-wrap mb-12">
+        <div className="container px-5 py-32 mx-auto flex flex-wrap mb-12">
           <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden flex justify-center">
             <CircleLogo alt="CircleLogo" className="" />
           </div>
@@ -29,21 +30,11 @@ const Home = () => {
                   consequat.
                 </p>
                 <Link
-                  to="/sign-up"
-                  className="btn btn-primary w-1/4 mt-3 text-white inline-flex uppercase justify-center items-center"
+                  to="/register"
+                  className="btn btn-primary w-36 mt-3 text-white inline-flex justify-center items-center gap-2 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                 >
                   Sign Up
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
+                  <HiArrowRight/> 
                 </Link>
               </div>
             </div>

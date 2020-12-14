@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import axios from "axios";
 import swal from "sweetalert";
+import { FaFacebookF } from 'react-icons/fa';
+import { FcGoogle } from 'react-icons/fc';
+
 
 import { Link, useHistory } from "react-router-dom";
 import { dispatchLogin } from "../.././redux/actions/authAction";
@@ -71,7 +74,7 @@ const Login = () => {
         <div className="container bg-white max-w-2xl mx-auto flex-1 flex flex-col items-center justify-center px-2">
           <div className="px-20 py-8 rounded-3xl subtle-shadow text-black w-full my-15 text-center">
             <form onSubmit={submit}>
-              <h1 className="mb-8 text-2xl font-bold uppercase text-center">
+              <h1 className="mb-8 text-3xl font-bold text-center">
                 Sign In
               </h1>
               {err && showErrMsg(err)}
@@ -96,7 +99,7 @@ const Login = () => {
 
               <button
                 type="submit"
-                className="btn btn-primary subtle-shadow w-full py-3 my-6 font-medium tracking-widest text-white uppercase focus:outline-none hover:bg-gray-900 hover:shadow-none"
+                className="btn btn-primary subtle-shadow w-full py-3 my-6 font-medium tracking-widest text-white focus:outline-none hover:bg-gray-900 hover:shadow-none"
               >
                 Login
               </button>
@@ -106,7 +109,7 @@ const Login = () => {
                 </Link>
               </p>
               <p className="text-center font-bold uppercase mt-6">or</p>
-              <button className="btn w-full subtle-shadow">
+              <button className="btn w-full mt-0 subtle-shadow gap-2">
                 Sign up with Google
               </button>
               <button className="btn w-full subtle-shadow text-white bg-blue-900">

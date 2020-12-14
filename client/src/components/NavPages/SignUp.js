@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import swal from "sweetalert";
 import { Link } from "react-router-dom";
+
 import {
   showErrMsg,
   showSuccessMsg,
@@ -100,7 +101,7 @@ const SignUp = () => {
           >
             {err && showErrMsg(err)}
             {success && showSuccessMsg(success)}
-            <h1 className="mb-8 text-2xl text-center font-bold uppercase ">
+            <h1 className="mb-8 text-3xl text-center font-bold">
               Create Account
             </h1>
 
@@ -167,25 +168,28 @@ const SignUp = () => {
             </label>
             <button
               type="submit"
-              className="btn btn-primary subtle-shadow w-full py-3 my-6 font-medium tracking-widest text-white uppercase focus:outline-none hover:bg-gray-900 hover:shadow-none"
+              className="btn btn-primary subtle-shadow w-full py-3 my-6 font-medium tracking-widest text-white focus:outline-none hover:bg-gray-900 hover:shadow-none"
             >
               {" "}
-              SIGN UP
+              Sign Up
             </button>
 
             <p className="text-center font-bold uppercase mt-6">or</p>
+
             <button className="btn w-full subtle-shadow">
-              Sign up with Google
+                Sign up with Google
             </button>
             <button className="btn w-full subtle-shadow text-white bg-blue-900">
-              Sign up with Facebook
+                Sign up with Facebook
             </button>
+
             <p className="text-center mt-4">
               Already have an account?&nbsp;
               <Link to="/login" className="font-bold underline">
                 Login Here
               </Link>
             </p>
+            
           </form>
         </div>
       </div>
