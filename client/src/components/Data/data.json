@@ -1,0 +1,842 @@
+[
+    {
+      "id": 1,
+      "Address": "35 Austin St. corner Riverside St. Provident Village",
+      "Latitude": 14.6298183,
+      "Longitude": 121.0864638
+    },
+    {
+      "id": 2,
+      "Address": "Blk5 L9 Phase 2, Dela Costa Homes V, Brgy Burgos Rodriguez Rizal",
+      "Latitude": 14.7195429,
+      "Longitude": 121.1313612
+    },
+    {
+      "id": 3,
+      "Address": "Estrella Heights Subdivision, Rizal",
+      "Latitude": 14.715519,
+      "Longitude": 121.1320168
+    },
+    {
+      "id": 4,
+      "Address": "Provident Village",
+      "Latitude": 14.6298183,
+      "Longitude": 121.0864638
+    },
+    {
+      "id": 5,
+      "Address": "23 Pambuli St. Brgy. San Roque, Marikina",
+      "Latitude": 14.6226249,
+      "Longitude": 121.1041715
+    },
+    {
+      "id": 6,
+      "Address": "Golf St. Estrella Heights Subdivision, Rizal",
+      "Latitude": 14.7155317,
+      "Longitude": 121.1322013
+    },
+    {
+      "id": 7,
+      "Address": "Blk 18, Lot 158 Phase 1d, Kasiglahan Village, Rodriguez, Rizal",
+      "Latitude": 14.7450112,
+      "Longitude": 121.1393433
+    },
+    {
+      "id": 8,
+      "Address": "Dela Costa Homes, Rodriguez, Rizal",
+      "Latitude": 14.720832,
+      "Longitude": 121.1323088
+    },
+    {
+      "id": 9,
+      "Address": "169 Riverside Drive St, Provident Village, Marikina",
+      "Latitude": 14.6294088,
+      "Longitude": 121.0866456
+    },
+    {
+      "id": 10,
+      "Address": "5A Amsterdam St Provident Village Marikina",
+      "Latitude": 14.6294088,
+      "Longitude": 121.0866456
+    },
+    {
+      "id": 11,
+      "Address": "185 A. Bonifacio St Libis Brgy. San Jose, Rodriguez, Rizal",
+      "Latitude": 14.7333477,
+      "Longitude": 121.1387088
+    },
+    {
+      "id": 12,
+      "Address": "Phase 1 Zayne Temajo, San Jose, Rizal",
+      "Latitude": 14.738641,
+      "Longitude": 121.1309426
+    },
+    {
+      "id": 13,
+      "Address": "Blk 7 Lot 39 Hotel St., Estrella Heights Subd., Rizal",
+      "Latitude": 14.7152588,
+      "Longitude": 121.1317826
+    },
+    {
+      "id": 14,
+      "Address": "Blk 17 lot 5 1K2 Kasiglahan San Jose Rodriguez Rizal",
+      "Latitude": 14.7459574,
+      "Longitude": 121.1419754
+    },
+    {
+      "id": 15,
+      "Address": "1 Hawaii, Vista Real Classica, Commonwealth, QC",
+      "Latitude": 14.6752541,
+      "Longitude": 121.1016796
+    },
+    {
+      "id": 16,
+      "Address": "Blk 31 Ampalaya St. Tumana Marikina",
+      "Latitude": 14.6523356,
+      "Longitude": 121.0990631
+    },
+    {
+      "id": 17,
+      "Address": "15 Agnes Street, Provident Village, Marikina",
+      "Latitude": 14.6294088,
+      "Longitude": 121.0866456
+    },
+    {
+      "id": 18,
+      "Address": "Celina Homes, Rodriguez, Rizal",
+      "Latitude": 14.7130499,
+      "Longitude": 121.1346481
+    },
+    {
+      "id": 19,
+      "Address": "Blk. 5 Lt. 60 Marigold Subd., Brgy. Burgos Rodriguez Rizal",
+      "Latitude": 14.7147371,
+      "Longitude": 121.1318378
+    },
+    {
+      "id": 20,
+      "Address": "274 Moonstone St corner Zinc St., Malanday, Marikina",
+      "Latitude": 14.6502476,
+      "Longitude": 121.0924646
+    },
+    {
+      "id": 21,
+      "Address": "45 PRE. Quezon St., Brgy Industrial Village, Marikina",
+      "Latitude": 14.6249831,
+      "Longitude": 121.0789624
+    },
+    {
+      "id": 22,
+      "Address": "18 Oxford St., Provident Village, Marikina",
+      "Latitude": 14.6298183,
+      "Longitude": 121.0864638
+    },
+    {
+      "id": 23,
+      "Address": "5 Lecias St., Malanday, Purok 7, Marikina",
+      "Latitude": 14.6428284,
+      "Longitude": 121.0918897
+    },
+    {
+      "id": 24,
+      "Address": "Road 4 Villa Doroteo Ext, Santolan, Pasig City",
+      "Latitude": 14.6163255,
+      "Longitude": 121.0833334
+    },
+    {
+      "id": 25,
+      "Address": "Blk 2 Lot 35 Riyal St., UBB Barangka, Marikina",
+      "Latitude": 14.6470499,
+      "Longitude": 121.0908255
+    },
+    {
+      "id": 26,
+      "Address": "1 Silver St. Minahan Interior, Malanday, Marikina",
+      "Latitude": 14.6517982,
+      "Longitude": 121.0929074
+    },
+    {
+      "id": 27,
+      "Address": "Area 3c Brgy Maly San Mateo Rizal",
+      "Latitude": 14.709703,
+      "Longitude": 121.133885
+    },
+    {
+      "id": 28,
+      "Address": "84 St. Mary Avenue Provident Village, Marikina",
+      "Latitude": 14.6294088,
+      "Longitude": 121.0866456
+    },
+    {
+      "id": 29,
+      "Address": "18 Purefoods St. Marikina",
+      "Latitude": 14.65073,
+      "Longitude": 121.1028546
+    },
+    {
+      "id": 30,
+      "Address": "Blk 27 Lot 4 Dela Costa Subd., Burgos, Rodriguez, Rizal",
+      "Latitude": 14.7195666,
+      "Longitude": 121.1303489
+    },
+    {
+      "id": 31,
+      "Address": "Blk 28 Lot11 Estrella Heights Subd.,\nBurgos, Rodriguez, Rizal",
+      "Latitude": 14.715519,
+      "Longitude": 121.1320168
+    },
+    {
+      "id": 32,
+      "Address": "14B Lourdes Street Sta Teresita Village Malanday Marikina",
+      "Latitude": 14.6444652,
+      "Longitude": 121.0973589
+    },
+    {
+      "id": 33,
+      "Address": "62 Paradise Malanday Marikina",
+      "Latitude": 14.6512867,
+      "Longitude": 121.0916019
+    },
+    {
+      "id": 34,
+      "Address": "Block 2 Lot 1 Richmond St., Windsor Place, St. Mary Avenue, Provident Village, Marikina",
+      "Latitude": 14.6294088,
+      "Longitude": 121.0866456
+    },
+    {
+      "id": 35,
+      "Address": "Blk 16, 69 Ampalaya Street, Tumana Marikina",
+      "Latitude": 14.653085,
+      "Longitude": 121.0979959
+    },
+    {
+      "id": 36,
+      "Address": "67 Dama De Noche St. Concepcion Uno Marikina",
+      "Latitude": 14.665859,
+      "Longitude": 121.103044
+    },
+    {
+      "id": 37,
+      "Address": "#42 Block 22 Palay St., Tumana, Marikina",
+      "Latitude": 14.6531145,
+      "Longitude": 121.0990507
+    },
+    {
+      "id": 38,
+      "Address": "74 Area 3B, Sta Cecilia, Maly, Rizal",
+      "Latitude": 14.7111387,
+      "Longitude": 121.1307937
+    },
+    {
+      "id": 39,
+      "Address": "6 St. Anne, Provident Village, Marikina",
+      "Latitude": 14.6312054,
+      "Longitude": 121.0878156
+    },
+    {
+      "id": 40,
+      "Address": "189 Riverside Drivd., Provident",
+      "Latitude": 14.6298183,
+      "Longitude": 121.0864638
+    },
+    {
+      "id": 41,
+      "Address": "7 Dama De Noble St., Twinville \nSubdivision, Concepcion Uno, Marikina",
+      "Latitude": 14.6643554,
+      "Longitude": 121.1019361
+    },
+    {
+      "id": 42,
+      "Address": "Monggo Street. Brgy Tumana, Marikina",
+      "Latitude": 14.6555837,
+      "Longitude": 121.0993016
+    },
+    {
+      "id": 43,
+      "Address": "Blk 4 Lot 17 Sitio Sabah Rodriguez, Rizal",
+      "Latitude": 14.7288886,
+      "Longitude": 121.1441051
+    },
+    {
+      "id": 44,
+      "Address": "Blk 57, L18 Phase 2 and Blk 16 L2 Phase 1 Dela Costa 5, Rodriguez, Rizal",
+      "Latitude": 14.7218823,
+      "Longitude": 121.1309446
+    },
+    {
+      "id": 45,
+      "Address": "5 Pla Pla St., Sto. Niño, Marikina",
+      "Latitude": 14.6393109,
+      "Longitude": 121.1009351
+    },
+    {
+      "id": 46,
+      "Address": "#86 Brgy. Maasim, San Ildefonso, Bulacan",
+      "Latitude": 15.0483629,
+      "Longitude": 120.9368273
+    },
+    {
+      "id": 47,
+      "Address": "Blk 33 Ampalaya St., Tumana, Marikina",
+      "Latitude": 14.6523376,
+      "Longitude": 121.0990582
+    },
+    {
+      "id": 48,
+      "Address": "56 St Therese, Provident Village",
+      "Latitude": 14.6298183,
+      "Longitude": 121.0864638
+    },
+    {
+      "id": 49,
+      "Address": "Blk 6#24, Blk7#19, & Blk 7#21 Talong Street, Barangay Tumana, Marikina",
+      "Latitude": 14.6549804,
+      "Longitude": 121.0972205
+    },
+    {
+      "id": 50,
+      "Address": "26 ST. Philip St., Camacho Phase I, Nangka, Marikina",
+      "Latitude": 14.6688738,
+      "Longitude": 121.1091333
+    },
+    {
+      "id": 51,
+      "Address": "Jubilee East Phase 3 Blk 3 Lot 23",
+      "Latitude": 14.6471846,
+      "Longitude": 121.0887021
+    },
+    {
+      "id": 52,
+      "Address": "Blk6 Lot35 Golf St. Estrella Heights. Burgos Rodriguez Rizal",
+      "Latitude": 14.7155317,
+      "Longitude": 121.1322013
+    },
+    {
+      "id": 53,
+      "Address": "17 St. Mary Avenue, Provident Village, Marikina",
+      "Latitude": 14.633331,
+      "Longitude": 121.089093
+    },
+    {
+      "id": 54,
+      "Address": "21 Oxford St., Provident Village, Marikina",
+      "Latitude": 14.6294088,
+      "Longitude": 121.0866456
+    },
+    {
+      "id": 55,
+      "Address": "B4 L11 Cellina Homes 4, Burgos, Rodriguez, Rizal",
+      "Latitude": 14.7130499,
+      "Longitude": 121.1346481
+    },
+    {
+      "id": 56,
+      "Address": "243 Riverside Drive, Provident Village, Marikina",
+      "Latitude": 14.6263456,
+      "Longitude": 121.0896969
+    },
+    {
+      "id": 57,
+      "Address": "Blk 1 Lot 2 Springfield Street, Windsor Place, Provident Villages, Marikina",
+      "Latitude": 14.6294088,
+      "Longitude": 121.0866456
+    },
+    {
+      "id": 58,
+      "Address": "24 Magsaysay St., I.V.C., Marikina",
+      "Latitude": 14.627503,
+      "Longitude": 121.0798581
+    },
+    {
+      "id": 59,
+      "Address": "11 Del Carmen St., Sta. Teresita Village, Marikina",
+      "Latitude": 14.645944,
+      "Longitude": 121.0998212
+    },
+    {
+      "id": 60,
+      "Address": "251 Riverside Dr Provident Villages Marikina",
+      "Latitude": 14.6294088,
+      "Longitude": 121.0866456
+    },
+    {
+      "id": 61,
+      "Address": "231 Riverside Brgy Jesus de la Peña",
+      "Latitude": 14.6315254,
+      "Longitude": 121.0907827
+    },
+    {
+      "id": 62,
+      "Address": "89 Milflores St, Nangka, Marikina",
+      "Latitude": 14.6668336,
+      "Longitude": 121.1028185
+    },
+    {
+      "id": 63,
+      "Address": "20 Ilang Ilang Street Industrial Valley Complex Marikina",
+      "Latitude": 14.6236014,
+      "Longitude": 121.0779377
+    },
+    {
+      "id": 64,
+      "Address": "85 Mustasa St. Tumana, Marikina",
+      "Latitude": 14.6546558,
+      "Longitude": 121.0978189
+    },
+    {
+      "id": 65,
+      "Address": "29 Cambridge Street, Provident Village, Marikina",
+      "Latitude": 14.6273407,
+      "Longitude": 121.1193008
+    },
+    {
+      "id": 66,
+      "Address": "29 St. Bernadette Street, Provident Village, Marikina",
+      "Latitude": 14.6294088,
+      "Longitude": 121.0866456
+    },
+    {
+      "id": 67,
+      "Address": "23 Princeton Street, Provident Village, Marikina",
+      "Latitude": 14.6272531,
+      "Longitude": 121.0917542
+    },
+    {
+      "id": 68,
+      "Address": "44 St Catherine Provident Village Marikina",
+      "Latitude": 14.6294088,
+      "Longitude": 121.0866456
+    },
+    {
+      "id": 69,
+      "Address": "74 Sitaw St. Brgy Tumana, Marikina",
+      "Latitude": 14.6534684,
+      "Longitude": 121.0980058
+    },
+    {
+      "id": 70,
+      "Address": "147 Columbia Street, Provident Village, Marikina",
+      "Latitude": 14.6411739,
+      "Longitude": 121.0835687
+    },
+    {
+      "id": 71,
+      "Address": "#9 Jade St. Emerald Village, Malanday Marikina",
+      "Latitude": 14.6430443,
+      "Longitude": 121.0961827
+    },
+    {
+      "id": 72,
+      "Address": "Blk 69 Ampalaya St., Tumana, Marikina",
+      "Latitude": 14.653085,
+      "Longitude": 121.0979959
+    },
+    {
+      "id": 73,
+      "Address": "8 Okra St Tumana Marikina",
+      "Latitude": 14.6530271,
+      "Longitude": 121.1004184
+    },
+    {
+      "id": 74,
+      "Address": "4 Liverpool St. Provident Villages, Brgy. Jesus Dela Peña",
+      "Latitude": 14.6352194,
+      "Longitude": 121.0886096
+    },
+    {
+      "id": 75,
+      "Address": "Blk17 Lot 5 1K2 Kasiglahan, Rodriguez Rizal",
+      "Latitude": 14.7459574,
+      "Longitude": 121.1419754
+    },
+    {
+      "id": 76,
+      "Address": "Blk11 Lot 50 Kasiglahan Village Montalban Rizal",
+      "Latitude": 14.7452313,
+      "Longitude": 121.1425229
+    },
+    {
+      "id": 77,
+      "Address": "Diliman 2nd San Rafael",
+      "Latitude": 15.0332918,
+      "Longitude": 120.9546466
+    },
+    {
+      "id": 78,
+      "Address": "Rita St. Sta Theresita Village, Malanday, Marikina",
+      "Latitude": 14.6444652,
+      "Longitude": 121.0973589
+    },
+    {
+      "id": 79,
+      "Address": "#20 Carnation St. Libis Bulelak Malanday, Marikina",
+      "Latitude": 14.6522557,
+      "Longitude": 121.0958733
+    },
+    {
+      "id": 80,
+      "Address": "145 Jade St. Corner Sardonyx St. Greenpark Village Rizal",
+      "Latitude": 14.6080086,
+      "Longitude": 121.1110998
+    },
+    {
+      "id": 81,
+      "Address": "94 St Therese Street, Provident Village, Marikina",
+      "Latitude": 14.628931,
+      "Longitude": 121.0877884
+    },
+    {
+      "id": 82,
+      "Address": "#32 Riverside Drive, Provident Village, Tanong, Marikina",
+      "Latitude": 14.6294088,
+      "Longitude": 121.0866456
+    },
+    {
+      "id": 83,
+      "Address": "Old 54 New 37 Saint Mary Avenue Provident Village Marikina",
+      "Latitude": 14.6294088,
+      "Longitude": 121.0866456
+    },
+    {
+      "id": 84,
+      "Address": "Blk. 66 Roga Comp. Calamansi St. Tumana Marikina.",
+      "Latitude": 14.6476863,
+      "Longitude": 121.1013354
+    },
+    {
+      "id": 85,
+      "Address": "97 St. Catherine Provident Village, Tañong",
+      "Latitude": 14.6308283,
+      "Longitude": 121.0887232
+    },
+    {
+      "id": 86,
+      "Address": "Brookside Drive cor. Columbus St., Area 1, Cainta, Rizal",
+      "Latitude": 14.6121523,
+      "Longitude": 121.0835746
+    },
+    {
+      "id": 87,
+      "Address": "",
+      "Latitude": 14.5875547,
+      "Longitude": 121.1177759
+    },
+    {
+      "id": 88,
+      "Address": "",
+      "Latitude": 14.630563,
+      "Longitude": 121.0844176
+    },
+    {
+      "id": 89,
+      "Address": "Block 19, lot 152 phase 1D, Kasiglahan Village, Montalban Rizal",
+      "Latitude": 14.7450164,
+      "Longitude": 121.1371546
+    },
+    {
+      "id": 90,
+      "Address": "Estrella Heights Subdivision, Montalban Rizal",
+      "Latitude": 14.7450112,
+      "Longitude": 121.1393433
+    },
+    {
+      "id": 91,
+      "Address": "Block 58, Calamansi St. Dona Petra, Tumana, Marikina",
+      "Latitude": 14.715519,
+      "Longitude": 121.1320168
+    },
+    {
+      "id": 92,
+      "Address": "Blk 1669 Ampalaya St. Tumana",
+      "Latitude": 14.6294088,
+      "Longitude": 121.0866456
+    },
+    {
+      "id": 93,
+      "Address": "38 Bayabas St Nangka Marikina",
+      "Latitude": 14.652586,
+      "Longitude": 121.101386
+    },
+    {
+      "id": 94,
+      "Address": "Leo Blk 8 Lot 9 Camacho Phase II",
+      "Latitude": 14.674694,
+      "Longitude": 121.1069717
+    },
+    {
+      "id": 95,
+      "Address": "12 F. Caparas St Ivc Marikina",
+      "Latitude": 14.6188986,
+      "Longitude": 121.0762415
+    },
+    {
+      "id": 96,
+      "Address": "Bahamas St., Purok 4, Malanday, Marikina",
+      "Latitude": 14.6188934,
+      "Longitude": 121.0784302
+    },
+    {
+      "id": 97,
+      "Address": "Virgo St. Camacho Phase 2",
+      "Latitude": 14.6426187,
+      "Longitude": 121.0863995
+    },
+    {
+      "id": 98,
+      "Address": "Alley 74 Blk3 Lakas Tao West Bank Rizal",
+      "Latitude": 14.5632458,
+      "Longitude": 121.1055901
+    },
+    {
+      "id": 99,
+      "Address": "Lot 6 Blk 47 Sebastian St. Dela Costa Burgos, Rodriguez, Rizal",
+      "Latitude": 14.5472511,
+      "Longitude": 121.1187024
+    },
+    {
+      "id": 100,
+      "Address": "Kasiglahan Village Phase 1k2 Blk 21 Lot 28 Rodriguez",
+      "Latitude": 14.746083,
+      "Longitude": 121.1360046
+    },
+    {
+      "id": 101,
+      "Address": "Doroteo Compound, Santolan, Pasig",
+      "Latitude": 14.7460778,
+      "Longitude": 121.1381933
+    },
+    {
+      "id": 102,
+      "Address": "Jubilee East Phase 3 Block 3 Lot 23",
+      "Latitude": 14.6002929,
+      "Longitude": 121.0957904
+    },
+    {
+      "id": 103,
+      "Address": "Nation St., Libis Bulelak, Malanday, Marikina",
+      "Latitude": 14.6499133,
+      "Longitude": 121.0956769
+    },
+    {
+      "id": 104,
+      "Address": "",
+      "Latitude": 14.6165947,
+      "Longitude": 121.0772212
+    },
+    {
+      "id": 105,
+      "Address": "Dinahican Area",
+      "Latitude": 14.6308283,
+      "Longitude": 121.0887232
+    },
+    {
+      "id": 106,
+      "Address": "Riverside Right Provident Village Marikina",
+      "Latitude": 14.6263508,
+      "Longitude": 121.0875082
+    },
+    {
+      "id": 107,
+      "Address": "11 St. Anne Street Provident VIllage, Marikina",
+      "Latitude": 14.7130499,
+      "Longitude": 121.1346481
+    },
+    {
+      "id": 108,
+      "Address": "Blk 4 Lot 57 Celina Homes 4 Burgos Rodriguez Rizal",
+      "Latitude": 14.7130551,
+      "Longitude": 121.1324594
+    },
+    {
+      "id": 109,
+      "Address": "Lot 10 Blk 2 Signal Corps Subd. Rizal",
+      "Latitude": 14.6311737,
+      "Longitude": 121.0877396
+    },
+    {
+      "id": 110,
+      "Address": "106 Roxas St., Twinville Subd., Nangka Marikina",
+      "Latitude": 14.7130499,
+      "Longitude": 121.1346481
+    },
+    {
+      "id": 111,
+      "Address": "72G Gabriel 3rd St. Santolan",
+      "Latitude": 14.6643554,
+      "Longitude": 121.1019361
+    },
+    {
+      "id": 112,
+      "Address": "15 St. Agnes, Provident Village, Marikina City",
+      "Latitude": 14.6345172,
+      "Longitude": 121.0901625
+    },
+    {
+      "id": 113,
+      "Address": "Estrella Heights Subdivision Homeowners Association",
+      "Latitude": 14.6294088,
+      "Longitude": 121.0866456
+    },
+    {
+      "id": 114,
+      "Address": "33A St. Anne, Provident Village",
+      "Latitude": 14.6294088,
+      "Longitude": 121.0866456
+    },
+    {
+      "id": 115,
+      "Address": "7 Okra St Barangay Tumana, Marikina",
+      "Latitude": 14.6294088,
+      "Longitude": 121.0866456
+    },
+    {
+      "id": 116,
+      "Address": "79 Sampaguita St., Sgt. De Leon, Santolan",
+      "Latitude": 14.6149487,
+      "Longitude": 121.0787689
+    },
+    {
+      "id": 117,
+      "Address": "8 Benitez Street, Malanday",
+      "Latitude": 14.6531547,
+      "Longitude": 121.1000952
+    },
+    {
+      "id": 118,
+      "Address": "14K and 14 L Agnes St Provident Village, Marikina",
+      "Latitude": 14.6448952,
+      "Longitude": 121.0929955
+    },
+    {
+      "id": 119,
+      "Address": "Rodriguez, Rizal",
+      "Latitude": 14.643243,
+      "Longitude": 121.10931
+    },
+    {
+      "id": 120,
+      "Address": "Riverside Drive",
+      "Latitude": 14.6278595,
+      "Longitude": 121.0857767
+    },
+    {
+      "id": 121,
+      "Address": "Blk 7 Lot 13 Phase 2 Dela Costa Homes 5 Burgos, Rodriguez, Rizal",
+      "Latitude": 14.7195481,
+      "Longitude": 121.1291725
+    },
+    {
+      "id": 122,
+      "Address": "26 Area 3 A Sta. Cecilia Maly, San Mateo",
+      "Latitude": 14.6492818,
+      "Longitude": 121.123773
+    },
+    {
+      "id": 123,
+      "Address": "22 St. Therese Provident Village",
+      "Latitude": 14.6294619,
+      "Longitude": 121.0866109
+    },
+    {
+      "id": 124,
+      "Address": "Block 19 Lot 74 Phase 1D Barangay Kasiglahan Village, 1D Rodriguez, Rizal",
+      "Latitude": 14.7450164,
+      "Longitude": 121.1371546
+    },
+    {
+      "id": 125,
+      "Address": "6 Harvard Street, Provident Villages, Marikina 1804",
+      "Latitude": 14.6293576,
+      "Longitude": 121.0901613
+    },
+    {
+      "id": 126,
+      "Address": "679 Libis St Concepcion Marikina",
+      "Latitude": 14.65073,
+      "Longitude": 121.1028546
+    },
+    {
+      "id": 127,
+      "Address": "81 Riverside Drive Right, Provident Village, Brgy. Tañong, Marikina",
+      "Latitude": 14.6294088,
+      "Longitude": 121.0866456
+    },
+    {
+      "id": 128,
+      "Address": "19 Fatima Drive, Sta. Teresita Village, Malanday, Marikina",
+      "Latitude": 14.6447067,
+      "Longitude": 121.1000078
+    },
+    {
+      "id": 129,
+      "Address": "Morales Compound, Sta. Lucia, Pasig City",
+      "Latitude": 14.5830323,
+      "Longitude": 121.0985494
+    },
+    {
+      "id": 130,
+      "Address": "11-D Cattleya St, Twinville Subdivision, Concepcion Uno, Marikina",
+      "Latitude": 14.6643554,
+      "Longitude": 121.1019361
+    },
+    {
+      "id": 131,
+      "Address": "11 Pag-asa St. South Libis, Banaba, San Mateo Rizal",
+      "Latitude": 14.6755905,
+      "Longitude": 121.1077458
+    },
+    {
+      "id": 132,
+      "Address": "#86 Brgy. Maasim, San Ildefonso Bulacan",
+      "Latitude": 15.0483629,
+      "Longitude": 120.9368273
+    },
+    {
+      "id": 133,
+      "Address": "Kabayani St. Purok 4 Danube St. Malanday, Marikina",
+      "Latitude": 14.648867,
+      "Longitude": 121.0906731
+    },
+    {
+      "id": 134,
+      "Address": "201 Riverside Drive Kaliwa Provident Village Brgy Jesus Dela Pena Marikina",
+      "Latitude": 14.6296378,
+      "Longitude": 121.091115
+    },
+    {
+      "id": 135,
+      "Address": "Talisay st. Libis bulelak malanday",
+      "Latitude": 14.652537,
+      "Longitude": 121.0947546
+    },
+    {
+      "id": 136,
+      "Address": "Blk 29 Ampalaya St. Lower Tumana, Marikina (creekside)",
+      "Latitude": 14.6524867,
+      "Longitude": 121.0965049
+    },
+    {
+      "id": 137,
+      "Address": "16 Austin St., provident Village, Marikina",
+      "Latitude": 14.6289683,
+      "Longitude": 121.085954
+    },
+    {
+      "id": 138,
+      "Address": "Block 46 #52 Monggo Street cor. Petchay, Brgy. Tumana, Marikina",
+      "Latitude": 14.6555837,
+      "Longitude": 121.0971129
+    },
+    {
+      "id": 139,
+      "Address": "679 Libis St.concepcion Marikina",
+      "Latitude": 14.675606,
+      "Longitude": 121.1065106
+    },
+    {
+      "id": 140,
+      "Address": "Lot 6 Blk 47 Sebastian St. Dela Costa Burgos, Rodriguez,Rizal",
+      "Latitude": 14.6050234,
+      "Longitude": 121.1051565
+    }
+   ]
