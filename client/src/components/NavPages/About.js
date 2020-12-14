@@ -17,7 +17,11 @@ const About = () => {
   return (
     <>
       <Content className="max-w-full bg-cover bg-center bg-no-repeat px-12 py-4">
-        <div className="bg-white grid grid-cols-2 gap-2 rounded-md bg-opacity-40 p-5">
+        <div className="bg-white grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 rounded-md bg-opacity-40 p-5">
+          <div className="flex justify-center">
+            <img className="max-h-56 sm:max-h-56 md:max-h-64 lg:max-h-72 xl:max-h-80" src={Pin} alt="Google Map"/>
+          </div>
+
           <div className="py-20">
             <h2 className="text-6xl text-white">Lorem Ipsum</h2>
             <h2 className="text-4xl text-white">Dolor Sit Amet</h2>
@@ -29,7 +33,6 @@ const About = () => {
             </div>
           </div>
 
-          <div className="flex justify-center"><img className="max-h-80" src={Pin} alt="Google Map"/></div>
         </div>
       </Content>
 
