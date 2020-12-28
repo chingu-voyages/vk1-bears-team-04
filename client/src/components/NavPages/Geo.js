@@ -34,7 +34,7 @@ const Geo = () => {
     
 
       return (
-        <div style={{ height: "100vh" }}>
+        <div className="h-screen">
           <MapGL
             ref={mapRef}
             {...viewport}

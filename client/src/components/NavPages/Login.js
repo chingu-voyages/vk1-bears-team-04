@@ -2,9 +2,6 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import axios from "axios";
 import swal from "sweetalert";
-import { FaFacebookF } from 'react-icons/fa';
-import { FcGoogle } from 'react-icons/fc';
-
 
 import { Link, useHistory } from "react-router-dom";
 import { dispatchLogin } from "../.././redux/actions/authAction";
