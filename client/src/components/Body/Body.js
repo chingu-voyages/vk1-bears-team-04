@@ -15,6 +15,10 @@ import {
   Terms,
   Forgot,
   PageNotFound,
+  Geo,
+  DashboardRouter,
+  FirstMenu,
+  SecondMenu,
 } from "../NavPages";
 
 import ActivationEmail from "../Auth/Activation";
@@ -38,6 +42,9 @@ function Body() {
           <Route path="/privacy-policy" component={Privacy} />
           <Route path="/terms-of-services" component={Terms} />
           <Route path="/forgot-password" component={Forgot} />
+          <Route path="/main" component={DashboardRouter} />
+          <Route path="/firstmenu" component={FirstMenu} />
+          <Route path="/secondmenu" component={SecondMenu} />
           <Route
             path="/user/activate/:activation_token"
             component={ActivationEmail}

@@ -31,3 +31,4 @@ server/.env
 
 # Tailwind Output
 client/src/tailwind.output.css
+client/.env
