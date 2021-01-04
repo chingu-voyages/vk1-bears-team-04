@@ -13,11 +13,13 @@ export { default as Privacy } from "./Privacy";
 export { default as Terms } from "./Terms";
 export { default as Forgot } from "./Forgot";
 export { default as PageNotFound } from "./PageNotFound";
-export { default as Dashboard } from "./Dashboard";
-export { default as DashboardRouter } from "./MainDashboard";
-export { default as FirstMenu } from "./FirstMenu";
-export { default as SecondMenu } from "./SecondMenu";
+export { default as MapsContent } from "./MapsContent";
+export { default as Account } from "./Account";
+export { default as Maps } from "./Maps";
 export { default as Hotlines } from "./Hotlines";
-export { default as RescueLogs } from "./RescueLogs";
+export { default as HotlinesContent } from "./HotlinesContent";
+export { default as ProfilePage } from "./ProfilePage";
+export { default as Dashboard } from "./Dashboard";
+export { default as AccountDashboard } from "./AccountDashboard";
 
 
