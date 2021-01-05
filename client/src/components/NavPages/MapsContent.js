@@ -1,4 +1,5 @@
 import React, {useState, useRef, useCallback } from "react";
+import 'react-map-gl-geocoder/dist/mapbox-gl-geocoder.css'
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import Geocoder from 'react-map-gl-geocoder';
 import { FaMapMarkerAlt } from "react-icons/fa";
@@ -85,10 +86,6 @@ const MapsContent = () => {
               {/* <h2 className="text-left">This is the basic map</h2> */}
             </ReactMapGL>
           </div>
-          
-          <div>Another Section</div>
-          <div>Another Section</div>
-          <div>Another Section</div>
 
         </div>
     </>

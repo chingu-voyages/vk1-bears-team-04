@@ -11,7 +11,7 @@ const AccordionSection = styled.div`
   justify-content: center;
   position: relative;
   padding: 3% 0;
-  background: #fff;
+  background: #D1D5DB;
 `;
 
 const Container = styled.div`
@@ -66,7 +66,7 @@ const Faqs = () => {
 
   return (
     <IconContext.Provider value={{ color: '#000', size: '25px' }}>
-      <h1 className="text-center font-medium text-4xl pt-10">Frequently Asked Questions (FAQs)</h1>
+      <h1 className="text-center font-medium text-4xl p-10">Frequently Asked Questions (FAQs)</h1>
       <AccordionSection>
         <Container className="text-left">
           {Questions.map((item, index) => {
@@ -78,7 +78,7 @@ const Faqs = () => {
                 </Wrap>
                 {clicked === index ? (
                   <Dropdown>
-                    <p>{item.answer}</p>
+                    <p className="px-6">{item.answer}</p>
                   </Dropdown>
                 ) : null}
               </>
