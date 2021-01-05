@@ -3,9 +3,10 @@ import { BrowserRouter as Router } from "react-router-dom";
 import {
   Navbar,
   Footer,
-  MainDashboard,
-  FirstMenu,
-  SecondMenu,
+  Dashboard,
+  Account,
+  Maps,
+  Hotlines,
 } from "./NavPages";
 
 function DashboardRouter() {
@@ -13,9 +14,10 @@ function DashboardRouter() {
     <section>
       <Router>
         <Navbar />
-        <MainDashboard />
-        <FirstMenu /> 
-        <SecondMenu />  
+        <Dashboard />
+        <Account />
+        <Maps /> 
+        <Hotlines />  
         <Footer />
       </Router>
     </section>

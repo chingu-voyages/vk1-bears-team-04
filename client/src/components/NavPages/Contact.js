@@ -48,21 +48,21 @@ const Contact = () => {
             <div className="flex justify-center pb-3">
               <BiMap className="text-5xl"/>
             </div>
-            <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p className="text-center">We are located from Metro Manila, Philippines.</p>
           </div>
 
           <div className="border-2 border-yellow-300 rounded-3xl p-5">
             <div className="flex justify-center pb-3">
               <AiOutlineMail className="text-5xl"/>
             </div>
-            <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p className="text-center">You can reach us by sending us email at <a className="font-semibold" href="mailto:urescueme.info@gmail.com">urescueme.info@gmail.com</a>.</p>
           </div>
 
           <div className="border-2 border-yellow-300 rounded-3xl p-5">
             <div className="flex justify-center pb-3">
               <BiPhoneCall className="text-5xl"/>
             </div>
-            <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p className="text-center">You can now call us at <span className="font-semibold">555-555-5555</span>.</p>
           </div>
         </div>
       </div>

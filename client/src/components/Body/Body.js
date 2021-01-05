@@ -15,14 +15,14 @@ import {
   Terms,
   Forgot,
   PageNotFound,
-  Geo,
-  DashboardRouter,
-  FirstMenu,
-  SecondMenu,
+  Account,
+  Dashboard,
+  Maps,
+  Hotlines,
 } from "../NavPages";
 
 import ActivationEmail from "../Auth/Activation";
-import Dashboard from "../NavPages/Dashboard";
+import MapsContent from "../NavPages/MapsContent";
 
 function Body() {
   const auth = useSelector((state) => state.auth);
@@ -42,9 +42,10 @@ function Body() {
           <Route path="/privacy-policy" component={Privacy} />
           <Route path="/terms-of-services" component={Terms} />
           <Route path="/forgot-password" component={Forgot} />
-          <Route path="/main" component={DashboardRouter} />
-          <Route path="/firstmenu" component={FirstMenu} />
-          <Route path="/secondmenu" component={SecondMenu} />
+          <Route path="/account" component={Account} />
+          <Route path="/dashboard" component={Dashboard} />
+          <Route path="/maps" component={Maps} />
+          <Route path="/hotlines" component={Hotlines} />
           <Route
             path="/user/activate/:activation_token"
             component={ActivationEmail}

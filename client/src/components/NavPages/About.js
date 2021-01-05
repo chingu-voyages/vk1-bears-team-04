@@ -23,9 +23,9 @@ const About = () => {
           </div>
 
           <div className="py-20">
-            <h2 className="text-6xl text-white">Lorem Ipsum</h2>
-            <h2 className="text-4xl text-white">Dolor Sit Amet</h2>
-            <p className="pt-5 text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h2 className="text-5xl text-white">Every Click,</h2>
+            <h2 className="text-5xl text-white">Can Save More Lives</h2>
+            <p className="pt-5 text-white">Become a life saver to anyone, you can now become a hero without putting that much effort.</p>
             <div className="justify-center flex">
               <Link to="/register"
                 className="btn btn-primary w-40 mt-3 text-white inline-flex  justify-center items-center gap-2 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110">Sign Up Now<HiArrowRight/>
