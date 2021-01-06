@@ -1,15 +1,15 @@
-export const isEmpty = (value) => {
+export const isEmpty = value => {
   if (!value) return true;
   return false;
 };
 
-export const isEmail = (email) => {
+export const isEmail = email => {
   // eslint-disable-next-line
   const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(email);
 };
 
-export const isLength = (password) => {
+export const isLength = password => {
   if (password.length < 6) return true;
   return false;
 };
@@ -20,6 +20,6 @@ export const isMatch = (password, password2) => {
 };
 
 export const isStringOnly = (firstName, lastName) => {
-  const pat = /^[A-Za-z]+$/;
+  const pat = /^[a-zA-Z_ ]*$/;
   return pat.test(firstName, lastName);
 };
