@@ -21,14 +21,12 @@ const Home = () => {
                   U RESCUE ME
                 </h1>
                 <h2 className="text-gray-900 text-2xl font-medium mb-5">
-                  Lorem ipsum dolor sit amet consectetur
+                  Get more from life with Crowdsource Rescue.
                 </h2>
-                <p className="leading-relaxed text-base lg:w-3/4 mb-3">
-                  Adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat.
+                <p className="text-gray-800 leading-relaxed text-base lg:w-3/4 mb-3">
+                  You can find better solutions from the very start. If you've got the time, you can send some help to anyone.
                 </p>
+                <p className="text-gray-800">Get to know more about us.</p>
                 <Link
                   to="/register"
                   className="btn btn-primary w-36 mt-3 text-white inline-flex justify-center items-center gap-2 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110"
@@ -40,6 +38,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+        
       </section>
 
       <section className="bg-yellow-300">

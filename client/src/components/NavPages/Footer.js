@@ -10,18 +10,14 @@ const Footer = () => {
         <div className="mx-auto px-6">
           <div className="sm:flex sm:mt-8">
             <div className="mt-8 sm:mt-0 sm:w-full sm:px-4 flex flex-col md:flex-row justify-between">
-              <Link to="/" className="flex flex-col justify-center items-center"><Logo className="w-1/4 sm:w-16 md:w-2/4" /></Link>
+              <Link to="/" className="flex flex-col justify-center items-center"><Logo className="w-1/4 sm:w-4 md:w-2/4" /></Link>
 
               <div className="w-full py-2 flex flex-col">
                 <span className="font-bold uppercase text-2xl text-white mb-2">
                   U Rescue Me
                 </span>
                 <span className="text-justify px-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                  ac diam a est placerat cursus. Vestibulum ut imperdiet velit.
-                  Nulla sed nulla ultricies, lobortis sem a, mollis nibh.
-                  Curabitur odio ex, pulvinar vel diam eget, ultricies
-                  ullamcorper nisi. Etiam et faucibus augue, eu lobortis lectus.
+                A Crowdsourcing Web Application that supports many people who wanted to reach someone for help to provide informations by filling up a rescue form. With the support from U Rescue Me, rescuers can easily gather the required information. This application can also be used by non-emergency services that need to gather crowd intelligence in a search operation.
                 </span>
               </div>
 
