@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .nav-bg,
-.primary-btn {
+.btn-primary {
   background: rgb(212, 7, 15);
   background: linear-gradient(
     90deg,
@@ -23,6 +23,7 @@
 
 input[type="text"],
 input[type="password"],
-input[type="email"] {
+input[type="email"],
+textarea {
   @apply block border rounded-xl border-gray-200 w-full p-3 mb-4 focus:outline-none focus:bg-gray-50 focus:shadow-inner;
 }

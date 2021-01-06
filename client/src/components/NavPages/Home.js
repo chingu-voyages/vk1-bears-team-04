@@ -4,12 +4,13 @@ import step1 from "../../images/step-1.svg";
 import step2 from "../../images/step-2.svg";
 import step3 from "../../images/step-3.svg";
 import { Link } from "react-router-dom";
+import { HiArrowRight } from 'react-icons/hi';
 
 const Home = () => {
   return (
     <>
       <section className="text-gray-700 body-font">
-        <div className="container px-5 py-48 mx-auto flex flex-wrap mb-12">
+        <div className="container px-5 py-32 mx-auto flex flex-wrap mb-12">
           <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden flex justify-center">
             <CircleLogo alt="CircleLogo" className="" />
           </div>
@@ -20,35 +21,24 @@ const Home = () => {
                   U RESCUE ME
                 </h1>
                 <h2 className="text-gray-900 text-2xl font-medium mb-5">
-                  Lorem ipsum dolor sit amet consectetur
+                  Get more from life with Crowdsource Rescue.
                 </h2>
-                <p className="leading-relaxed text-base lg:w-3/4 mb-3">
-                  Adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat.
+                <p className="text-gray-800 leading-relaxed text-base lg:w-3/4 mb-3">
+                  You can find better solutions from the very start. If you've got the time, you can send some help to anyone.
                 </p>
+                <p className="text-gray-800">Get to know more about us.</p>
                 <Link
-                  to="/sign-up"
-                  className="btn primary-btn w-1/4 mt-3 text-white inline-flex uppercase justify-center items-center"
+                  to="/register"
+                  className="btn btn-primary w-36 mt-3 text-white inline-flex justify-center items-center gap-2 transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                 >
                   Sign Up
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    className="w-4 h-4 ml-2"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
+                  <HiArrowRight/> 
                 </Link>
               </div>
             </div>
           </div>
         </div>
+        
       </section>
 
       <section className="bg-yellow-300">
@@ -65,7 +55,7 @@ const Home = () => {
                 <div className="flex justify-center h-64">
                   <img src={step1} alt="Step 1" />
                 </div>
-                <div className="primary-btn pt-1 mb-6"></div>
+                <div className="btn-primary pt-1 mb-6"></div>
                 <h2 className="px-12 tracking-widest text-2xl title-font font-bold text-gray-900 mb-3">
                   Look out for Posts
                 </h2>
@@ -81,7 +71,7 @@ const Home = () => {
                 <div className="flex justify-center h-64">
                   <img src={step2} alt="Step 2" />
                 </div>
-                <div className="primary-btn pt-1 mb-6"></div>
+                <div className="btn-primary pt-1 mb-6"></div>
                 <h2 className="px-12 tracking-widest text-2xl title-font font-bold text-gray-900 mb-3">
                   Crowdsource Information
                 </h2>
@@ -96,7 +86,7 @@ const Home = () => {
                 <div className="flex justify-center h-64">
                   <img src={step3} alt="Step 3" />
                 </div>
-                <div className="primary-btn pt-1 mb-6"></div>
+                <div className="btn-primary pt-1 mb-6"></div>
                 <h2 className="px-12 tracking-widest text-2xl title-font font-bold text-gray-900 mb-3">
                   Leave the rest to Us!
                 </h2>

@@ -11,6 +11,7 @@ clientclient/coverage
 
 # misc
 client/.DS_Store
+client/.env
 client/.env.local
 client/.env.development.local
 client/.env.test.local
@@ -26,6 +27,8 @@ client/.eslintcache
 .prettierrc
 
 server/node_modules
+server/.env
 
 # Tailwind Output
 client/src/tailwind.output.css
+client/.env

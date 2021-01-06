@@ -3,9 +3,13 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import "./tailwind.output.css";
 
+import DataProvider from "./redux/store";
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DataProvider>
+      <App />
+    </DataProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
