@@ -179,6 +179,42 @@ const userController = {
       return res.status(500).json({ msg: err.message });
     }
   },
+  updateUser: async (req, res) => {
+    try {
+      const { firstName } = req.body;
+      await User.findOneAndUpdate(
+        { _id: req.user.id },
+        {
+          firstName,
+        }
+      );
+      res.json({ msg: "Update Success!" });
+    } catch (err) {
+      return res.status(500).json({ msg: err.message });
+    }
+  },
+  updateUserRole: async (req, res) => {
+    try {
+      const { role } = req.body;
+      await User.findOneAndUpdate(
+        { _id: req.params.id },
+        {
+          role,
+        }
+      );
+      res.json({ msg: "Update Success!" });
+    } catch (err) {
+      return res.status(500).json({ msg: err.message });
+    }
+  },
+  deleteUser: async (req, res) => {
+    try {
+      await User.findByIdAndDelete(req.params.id);
+      res.json({ msg: "Delete Success!" });
+    } catch (err) {
+      return res.status(500).json({ msg: err.message });
+    }
+  },
 };
 
 function validateEmail(email) {
